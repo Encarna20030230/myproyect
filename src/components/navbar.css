@@ -1,6 +1,6 @@
-nav {
+nav{
     background-color: #333;
-    color: #fff;
+    color:#00abf0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -8,8 +8,43 @@ nav {
 }
 
 label {
-    display: none;
+    display:none;
     cursor:pointer;
     font-size: 24px;
 }
 
+.menu {
+    display:flex;
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu li a{
+    color:#00abf0;
+    text-decoration: none;
+}
+
+@media(max-width:768px){
+    label{
+        display:block;
+    }
+}
+
+.menu {
+display:none;
+flex-direction: column;
+text-align: center;
+}
+.menu li{
+    margin-right: 0;
+    margin-bottom: 20px;
+}
+
+#toggle:checked + .menu {
+    display: flex;
+}
