@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 10cm;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background: rgb(38, 37, 37);
+    color: white
+}
+
+
+
+
+.home {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.contenido {
+
+    max-width: 600px;
+}
+
+.contenido h1 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.contenido h3 {
+    font-size: 26px;
+    font-weight: 700;
+    color: #00abf0;
+}
+
+.contenido p {
+    font-size: 16px;
+    margin: 20px 0 40px;
+}
+
+
