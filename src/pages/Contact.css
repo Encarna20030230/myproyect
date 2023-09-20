@@ -1,0 +1,72 @@
+body {
+    font-family: Ariel, sans-serif;
+    margin: 20px;
+}
+
+
+
+.contact {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contact p {
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.linkedin {
+    text-decoration: none;
+    color: #00abf0;
+    text-align:center;
+    font-size:20px;
+}
+
+.hobbies {
+    margin-bottom: 20px;
+    text-align:center;
+    font-size:18px;
+    color:#00abf0;
+}
+
+.hobbies ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color:white
+}
+
+.hobbies li {
+    margin-bottom: 5px;
+}
+
+.languages {
+    margin-bottom: 20px;
+    font-size:18px;
+    color:#00abf0;
+    text-align: center;
+}
+
+.languages ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: white;
+    font-size: 18px;
+}
+
+.languages li {
+    margin-bottom: 5px;
+}
+
+.resume-link a {
+    text-decoration: none;
+    background-color: #00abf0;
+    color: #fff;
+    padding: 1px 20px;
+    border-radius: 5px;
+   display:flex;
+   justify-content: center;
+   align-content: center;
+
+}
